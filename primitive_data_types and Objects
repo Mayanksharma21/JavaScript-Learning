@@ -1,0 +1,18 @@
+let a = null;
+let b = 234;
+let c = "John Martin";
+let d = BigInt("567") + BigInt("4576");
+let e = undefined;
+let f = Symbol("Hii this is symbol");
+let g = true;
+console.log(a, b, c, d, e, f, g);
+
+
+//Objects
+let obj = {
+	name: "John",
+	age: 23
+}
+
+console.log(obj.name);
+console.log(obj["age"]);
